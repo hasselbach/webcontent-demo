@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="C1257DE400519B4C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1c6" sequence="1" unid="3916AF20991C3939C1257DE40051BD63">
+<created><datetime>20150206T155248,99+01</datetime></created>
+<modified><datetime>20150206T155249,08+01</datetime></modified>
+<revised><datetime>20150206T155249,07+01</datetime></revised>
+<lastaccessed><datetime>20150206T155249,07+01</datetime></lastaccessed>
+<addedtofile><datetime>20150206T155249,07+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Sven Hasselbach</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name><name>CN=Dev01/O=Hasselba/C=CH</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Dev01/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>META-INF/services/com.ibm.xsp.adapter.servletFactory</text></item>
+<item name="$DesignerVersion" sign="true"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>META-INF/services/com.ibm.xsp.adapter.servletFactory</text></item></note>

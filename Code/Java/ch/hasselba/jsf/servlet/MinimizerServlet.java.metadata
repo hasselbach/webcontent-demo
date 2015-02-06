@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="C1257DE400519B4C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1b6" sequence="3" unid="840EBB1B84D6775CC1257DE40051BD5F">
+<created><datetime>20150206T155248,95+01</datetime></created>
+<modified><datetime>20150206T160851,89+01</datetime></modified>
+<revised><datetime>20150206T160851,88+01</datetime></revised>
+<lastaccessed><datetime>20150206T160851,88+01</datetime></lastaccessed>
+<addedtofile><datetime>20150206T155248,97+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Sven Hasselbach</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name><name>CN=Dev01/O=Hasselba/C=CH</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+
+
+
+
+<item name="$TITLE"><text>ch/hasselba/jsf/servlet/MinimizerServlet.java</text></item>
+
+
+
+
+
+
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ch/hasselba/jsf/servlet/MinimizerServlet.java</text></item></note>

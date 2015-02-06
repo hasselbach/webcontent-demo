@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="C1257DE400519B4C" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1c2" sequence="3" unid="2F1CEB4DF5AAB1FFC1257DE40051BD62">
+<created><datetime>20150206T155248,98+01</datetime></created>
+<modified><datetime>20150206T155835,67+01</datetime></modified>
+<revised><datetime>20150206T155835,66+01</datetime></revised>
+<lastaccessed><datetime>20150206T155835,66+01</datetime></lastaccessed>
+<addedtofile><datetime>20150206T155249,05+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name><name>CN=Dev01/O=Hasselba/C=CH</name><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>ch/hasselba/napi/NAPIUtils.java</text></item>
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>ch/hasselba/napi/NAPIUtils.java</text></item>
+
+</note>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<view name='DesignView' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='C1257DE400519B4C'
+ showinmenu='false' noreplace='true' publicaccess='false' designerversion='8.5.3'
+ default='true' unreadmarks='none' onopengoto='lastopened' onrefresh='displayindicator'
+ headers='beveled' opencollapsed='false' showresponsehierarchy='true' showmargin='true'
+ shrinkrows='false' extendlastcolumn='false' showhierarchies='false' unreadcolor='black'
+ rowlinecount='1' headerlinecount='1' rowspacing='1' bgcolor='white' totalscolor='black'
+ headerbgcolor='white' boldunreadrows='false' evaluateactions='false' allownewdocuments='false'
+ allowcustomizations='true' hidemarginborder='false' marginwidth='0px' marginbgcolor='white'
+ uniquekeys='false' selectionnoteclass='7FFF'>
+<noteinfo noteid='162' unid='8C9AE7B828BD362AC1257DE40051A0D6' sequence='2'>
+<created><datetime>20150206T155135,90+01</datetime></created>
+<modified><datetime>20150206T155152,98+01</datetime></modified>
+<revised><datetime>20150206T155152,97+01</datetime></revised>
+<lastaccessed><datetime>20150206T155152,97+01</datetime></lastaccessed>
+<addedtofile><datetime>20150206T155135,92+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby><code
+ event='selection'><formula>SELECT @Contains($FlagsExt; "w")</formula></code>
+<column sort='ascending' hidedetailrows='false' itemname='$FileNames' width='32'
+ resizable='true' separatemultiplevalues='false' sortnoaccent='true' sortnocase='true'
+ showaslinks='false'><columnheader title='$FileNames'><font size='9pt' style='bold'/></columnheader></column></view>
+

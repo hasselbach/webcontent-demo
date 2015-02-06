@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	FileName:
+	<xp:inputText
+		id="inputTextFileName"
+		value="#{fileBean.fileName}"
+		defaultValue="#{param.filename}"
+		disabled="true" />
+	<xp:br />
+	FileData:
+
+	<xp:inputTextarea
+		id="inputTextarea1"
+		value="#{fileBean.fileData}"
+		rows="40"
+		cols="80" />
+	<xp:br />
+	<xp:button
+		value="Load"
+		id="buttonLoad">
+		<xp:eventHandler
+			event="onclick"
+			submit="true"
+			refreshMode="complete"
+			action="#{fileBean.loadData}">
+		</xp:eventHandler>
+	</xp:button>
+	<xp:button
+		value="Save"
+		id="buttonSave">
+		<xp:eventHandler
+			event="onclick"
+			submit="true"
+			refreshMode="complete"
+			action="#{fileBean.saveData}">
+		</xp:eventHandler>
+	</xp:button>
+	
+</xp:view>

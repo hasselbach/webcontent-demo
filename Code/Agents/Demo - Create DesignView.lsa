@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<agent name='Demo - Create DesignView' xmlns='http://www.lotus.com/dxl' version='9.0'
+ replicaid='C1257DE400519B4C' hide='v3' publicaccess='false' designerversion='8.5.3'>
+<noteinfo noteid='1a2' unid='30642A387181F110C1257DE40051B86D' sequence='1'>
+<created><datetime>20150206T155236,29+01</datetime></created>
+<modified><datetime>20150206T155236,57+01</datetime></modified>
+<revised><datetime>20150206T155236,56+01</datetime></revised>
+<lastaccessed><datetime>20150206T155236,56+01</datetime></lastaccessed>
+<addedtofile><datetime>20150206T155236,56+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name><name>CN=Dev01/O=Hasselba/C=CH</name><name
+>CN=Sven Hasselbach/O=Hasselba/C=CH</name></updatedby>
+<wassignedby><name>CN=Sven Hasselbach/O=Hasselba/C=CH</name></wassignedby>
+<designchange><datetime>20150120T115014,94+01</datetime></designchange>
+<trigger type='actionsmenu'/>
+<documentset type='runonce'/><code event='options'><lotusscript>%REM
+	Agent Demo - Create DesignView
+	Created Nov 19, 2014 by Sven Hasselbach/Hasselba/CH
+	Description: Comments for Agent
+%END REM
+Option Public
+Option Declare
+
+
+</lotusscript></code><code event='initialize'><lotusscript>Sub Initialize
+
+	Dim session As New NotesSession
+	Dim doc As NotesDocument
+	Dim db As NotesDatabase
+	Dim view As NotesView
+      
+	Set db = session.Currentdatabase
+	Set view = db.Getview("DesignView")
+	
+	view.SelectionFormula = |@Contains($FlagsExt; "w")|
+	
+	Set doc = db.GetDocumentByUNID(view.UniversalID)
+	Delete view
+	
+    doc.ReplaceItemValue "$FormulaClass", "7FFF"
+	doc.Sign
+	doc.Save True, False
+
+End Sub</lotusscript></code>
+<rundata processeddocs='0' exitcode='0'>
+<agentmodified><datetime>20141119T151844,74+01</datetime></agentmodified></rundata></agent>
+

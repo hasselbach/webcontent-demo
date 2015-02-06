@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config>
+  <managed-bean>
+    <managed-bean-name>fileBean</managed-bean-name>
+    <managed-bean-class>ch.hasselba.napi.FileDataBean</managed-bean-class>
+    <managed-bean-scope>view</managed-bean-scope>
+    <managed-property>
+      <property-name>dbPath</property-name>
+      <value>WebContentDemo.nsf</value>
+    </managed-property>
+    <managed-property>
+      <property-name>dbServer</property-name>
+      <value>DEV01/Hasselba/CH</value>
+    </managed-property>
+  </managed-bean>
+  <!-- HELLO WORLD! //-->
+</faces-config>

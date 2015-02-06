@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+
+	<xp:viewPanel
+		rows="30"
+		id="viewPanel1"
+		var="rowEntry">
+		<xp:this.facets>
+			<xp:pager
+				partialRefresh="true"
+				layout="Previous Group Next"
+				xp:key="headerPager"
+				id="pager1">
+			</xp:pager>
+		</xp:this.facets>
+		<xp:this.data>
+			<xp:dominoView
+				var="viewDesign"
+				viewName="DesignView">
+			</xp:dominoView>
+		</xp:this.data>
+		<xp:viewColumn
+			columnName="$FileNames"
+			id="viewColumnFileNames"
+			displayAs="link"
+			>
+			<xp:this.pageUrl>
+				<![CDATA[#{javascript:"/Editor.xsp?filename=" + rowEntry.getColumnValues().get(0)}]]>
+		</xp:this.pageUrl>
+		</xp:viewColumn>
+	</xp:viewPanel>
+	<xp:br />
+
+</xp:view>
